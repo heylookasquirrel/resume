@@ -1,0 +1,443 @@
+*{
+    border:0;
+    padding:0;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-image: url("/img/dark_embroidery.png");
+    background-repeat: repeat;
+  }
+
+h1 h2 h3{
+    font-family: 'Oxygen', sans-serif;
+}
+
+hr{
+    display: block;
+   
+    margin:0.7rem 0;
+    width:80%;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.container{
+    height:70vh;
+    width:100%;
+    background-image: url("/img/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(50%);
+    color:white;
+    display: grid;
+    grid-template-columns: auto;
+ 
+}
+
+.container h1{
+    text-decoration: none;
+    font-size: 4em;
+    padding:0 1em ;
+    text-shadow: 2px 2px 3px #888888;
+}
+
+
+@media only screen and (max-width: 900px){
+
+    .container{
+        height:50vh;
+    }
+
+    .container h1{
+        text-decoration: none;
+        font-size: 3em;
+        padding:0 1em ;
+        text-shadow: 2px 2px 3px #888888;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container{
+        height:30vh;
+    }
+
+    .container h1{
+        text-decoration: none;
+        font-size: 2em;
+        padding:0 1em ;
+        text-shadow: 2px 2px 3px #888888;
+    }
+}
+
+menu{
+    display: block;
+    width:100%;
+    position: sticky;
+    background-color:#2F3136;
+    color:white;
+    height: auto;
+}
+
+menu ul{
+    list-style: none;
+    orientation: horizontal ;
+    display: grid;
+    margin:auto;
+    width:75%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: sticky;
+    top:0px;
+}
+
+menu ul li{
+    transition:.5s;
+    text-align: center;
+    font-size: 1.2em;
+    padding:.5em; 
+}
+
+menu ul a{
+    text-decoration: none; 
+    color:inherit
+}
+
+menu ul li:hover{
+    transition:.5s;
+    color: #202225;
+    background-color: #DCDDDE;
+    cursor: pointer;
+}
+
+
+
+main{
+    width: 100%;
+    
+    background-image: url("/img/paper_fibers.png");
+    background-repeat: repeat;
+
+}
+
+@media only screen and (min-width: 1200px) {
+    main{     
+        width:90vw;
+        margin:auto
+    }
+}
+
+
+@media only screen and (min-width: 1400px) {
+    main{     
+        width:80vw;
+        margin:auto
+    }
+}
+
+.big-title{
+    padding:2em 0;
+    width: 100%;
+}
+
+
+
+.big-title h1{
+    text-align: center;
+    
+}
+
+.section{
+    display:grid;
+    height:5em;
+    color:white;
+    grid-template-columns: minmax(160px, 250px) minmax(30px, 120px) auto;
+}
+
+.headline{
+    color:black;
+    background-color: transparent;
+    
+    font-size: 1.2em;
+    text-align: right;
+}
+
+.headline a{
+    text-decoration: none;
+    
+}
+
+.headline img{
+    height:54px;
+    padding-top:10px;
+    padding-right:1em;
+}
+
+.title{
+    background-color: #2F3136;
+    padding:1em 0em;
+}
+
+.title h2{
+    text-align: center;
+    
+}
+
+.title-hd{
+    background-color: #2F3136;
+    padding:.7em 0em;
+}
+
+.title-hd h2{
+    text-align: center;
+    
+}
+
+.title-hd h3{
+    transition:.5s;
+    text-align: center;
+    
+}
+
+.tri{
+    border-top: 5em solid #2F3136;
+    border-right: 50px solid transparent; 
+}
+
+
+
+.content{
+    
+    
+    padding: 4em 1.5em; 
+}
+
+
+.content h3{
+    
+    text-align: center;
+}
+
+.content ul{
+    padding: 2.5em 0;
+    justify-content: center;
+    width:80%;
+    margin:auto;
+}
+
+.content ul li{
+    padding:0.2em;
+    
+}
+
+@media only screen and (max-width: 900px){
+
+
+    .title-hd{
+        background-color: #2F3136;
+        padding:.8em 0;
+        
+    }
+    
+    .title-hd h2{
+        text-align: center;
+        
+    }
+    
+    .title-hd h3{
+        transition:.5s;
+        text-align: center;
+        font-size: .8em;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .headline{
+        
+        text-align: center;
+    }
+
+}
+
+.resEntry{
+    padding:0 2em;
+    display:grid;
+    grid-template-columns: 150px auto;
+    grid-column-gap: 4rem;
+    padding-bottom: 5rem;
+}
+
+.resEntry div:first-child{
+    transition: .5s;
+    width:180px;
+    height:180px;
+}
+
+.resPicture4{
+    background-image:url("/img/cellphoneking.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:1em solid gainsboro;
+    border-radius: 1em;
+}
+
+.resPicture3{
+    background-image:url("/img/1000px-Apple_logo_black.svg.png");
+    background-size: contain;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-color: gainsboro;
+    border:1em solid gainsboro;
+    border-radius: 1em;
+}
+
+.resPicture2{
+    background-image:url("/img/full.jpg");
+    background-size: contain;
+    background-position: center ;
+    background-repeat: no-repeat;
+    border:1em solid gainsboro;
+    border-radius: 1em;
+}
+
+.resPicture1{
+    background-image:url("/img/75-757070_usaa-logo-usaa-insurance-logo.png");
+    background-size: contain;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-color: gainsboro;
+    border:1em solid gainsboro;
+    border-radius: 1em;
+}
+
+@media only screen and (max-width: 900px){
+
+    .resEntry{
+        padding:0 2em;
+        display:grid;
+        grid-template-columns: 100px auto;
+        grid-column-gap: 3rem;
+        padding-bottom: 4rem;
+    }
+
+    .resEntry div:first-child{
+        transition: .5s;
+        width:100px;
+        height:100px;
+    }
+
+}
+
+@media only screen and (max-width: 650px){
+
+    .resEntry{
+        padding:0 2em;
+        display:grid;
+        grid-template-columns: auto;
+        grid-column-gap: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    .resEntry div:first-child{
+        transition: .5s;
+        width:180px;
+        height:180px;
+        margin:3rem auto;
+    }
+
+}
+
+footer{
+    position:fixed;
+    bottom:2rem;
+    :2rem;
+}
+
+footer:first{
+    border: solid black 1;
+}
+
+.profileCon{
+    display: grid;
+    grid-template-columns: 35% auto 35%;
+    width: 70%;
+    margin:auto
+}
+
+.profile{
+    background-image: url('/img/profile.jpg');
+    border-radius: 50%;
+    border: .5rem solid #2F3136;
+    height:13rem;
+    width: 13rem;
+    margin:auto;
+}
+
+.about{
+    float:right;
+    padding:1rem;
+    padding-right: 2rem
+}
+
+.about h2{
+    color:#60A3BC;
+    padding:.5rem 0;
+}
+
+.details{
+    padding:1rem;
+    padding-left: 2rem
+}
+
+.details h2{
+    color:#60A3BC;
+    padding:.5rem 0;
+}
+
+.details h3{
+    color:#30336B;
+    font-size: 1.1rem;
+    padding:.5rem 0;
+}
+
+
+@media only screen and (max-width: 950px){
+    .profileCon{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 70%;
+        margin:auto
+    }
+
+    
+    .profile{
+        background-image: url('/img/profile.jpg');
+        border-radius: 50%;
+        border: .5rem solid #2F3136;
+        height:13rem;
+        width: 13rem;
+        margin:1rem auto ;
+    }
+
+    .details{
+        padding:1rem;
+        padding-left: 2rem
+        
+    }
+
+}
+
+.contactCon{
+    width:40vh;
+    margin:auto;
+    display:grid;
+    grid-column-gap:2rem;
+    grid-template-columns: 128px 128px;
+    padding-bottom:4rem;
+}
+
+.contactCon img{
+    width: 128px;
+}
