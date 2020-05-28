@@ -7,7 +7,7 @@
 
 html {
     scroll-behavior: smooth;
-    background-image: url("/img/dark_embroidery.png");
+    background-image: url("./img/dark_embroidery.png");
     background-repeat: repeat;
   }
 
@@ -27,7 +27,7 @@ hr{
 .container{
     height:70vh;
     width:100%;
-    background-image: url("/img/banner.jpg");
+    background-image: url("./img/banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -117,7 +117,7 @@ menu ul li:hover{
 main{
     width: 100%;
     
-    background-image: url("/img/paper_fibers.png");
+    background-image: url("./img/paper_fibers.png");
     background-repeat: repeat;
 
 }
@@ -276,7 +276,7 @@ main{
 }
 
 .resPicture4{
-    background-image:url("/img/cellphoneking.PNG");
+    background-image:url("./img/cellphoneking.PNG");
     background-size: cover;
     background-repeat: no-repeat;
     border:1em solid gainsboro;
@@ -284,7 +284,7 @@ main{
 }
 
 .resPicture3{
-    background-image:url("/img/1000px-Apple_logo_black.svg.png");
+    background-image:url("./img/1000px-Apple_logo_black.svg.png");
     background-size: contain;
     background-position: center ;
     background-repeat: no-repeat;
@@ -294,7 +294,7 @@ main{
 }
 
 .resPicture2{
-    background-image:url("/img/full.jpg");
+    background-image:url("./img/full.jpg");
     background-size: contain;
     background-position: center ;
     background-repeat: no-repeat;
@@ -303,7 +303,7 @@ main{
 }
 
 .resPicture1{
-    background-image:url("/img/75-757070_usaa-logo-usaa-insurance-logo.png");
+    background-image:url("./img/75-757070_usaa-logo-usaa-insurance-logo.png");
     background-size: contain;
     background-position: center ;
     background-repeat: no-repeat;
@@ -367,7 +367,7 @@ footer:first{
 }
 
 .profile{
-    background-image: url('/img/profile.jpg');
+    background-image: url('./img/profile.jpg');
     border-radius: 50%;
     border: .5rem solid #2F3136;
     height:13rem;
@@ -413,7 +413,7 @@ footer:first{
 
     
     .profile{
-        background-image: url('/img/profile.jpg');
+        background-image: url('./img/profile.jpg');
         border-radius: 50%;
         border: .5rem solid #2F3136;
         height:13rem;
